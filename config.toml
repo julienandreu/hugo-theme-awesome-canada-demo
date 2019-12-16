@@ -1,0 +1,120 @@
+############################ Default configuration #########################
+baseURL = "https://www.awesome-canada.com/"
+languageCode = "en-US"
+# site title
+title = "Awesome Canada"
+# theme
+theme = "awesome-canada"
+# post pagination
+paginate = "6"
+# post excerpt
+summaryLength = "10"
+# disqus short name
+disqusShortname = "" # get your shortname form here : https://disqus.com
+author = "Julien Andreu"
+
+[blackfriday]
+plainIDAnchors = true
+hrefTargetBlank = true
+
+[outputs]
+home = ["HTML", "AMP", "RSS", "JSON"]
+
+
+########################## Seo ######################################
+
+enableRobotsTXT = true
+canonifyURLs = true
+
+
+########################## Plugings ######################################
+
+# css plugins
+[[params.plugins.css]]
+URL = "plugins/bootstrap/bootstrap.min.css"
+[[params.plugins.css]]
+URL = "plugins/themify-icons/themify-icons.css"
+[[params.plugins.css]]
+URL = "plugins/awesome-canada/awesome-canada.css"
+
+
+########################### Navigation ###################################
+
+# main menu
+[[menu.main]]
+identifier = "index"
+name = "About me"
+url = "/"
+weight = 1
+[[menu.main]]
+identifier = "my-posts"
+name = "My posts"
+url = "/my-posts"
+weight = 2
+
+
+######################### Default Parameters ###########################
+[params]
+# meta data
+description = "This is meta description"
+# google analitycs ID
+googleAnalitycsID = "Your ID"
+# wording
+readingTime = "%d min. reading"
+dateFormat = "2006, Jan. 2"
+copyright = "© 2019 Awesome Canada, Hugo theme, Julien Andreu. All rights reserved."
+
+
+####################### error #######################################
+[params.twitter]
+creator = "@julien_andreu"
+
+
+####################### error #######################################
+[params.error]
+title = "Oh oh...<br/>Your page seems...<br/>Missing..."
+content = "How could I help you..."
+
+
+####################### header #######################################
+[params.header]
+title = "Awesome<span>.</span>Canada"
+mobileTitle = "Awesome<span>.</span><br/>Canada"
+background = "images/header/lost.jpg"
+
+
+####################### footer #######################################
+[params.footer]
+background = "images/footer/forest.jpg"
+
+
+######################## call to action ###############################
+[params.cta]
+enable= false
+link= "https://www.linkedin.com/in/julien-andreu"
+picture= "images/cta/opportunites.jpg"
+title= "Any idea, any opportunities ?"
+content= "Get in touch with your favorite theme creator <a class=\"social julienandreuFr\" href=\"https://julienandreu.fr/\" target=\"_blank\" title=\"Discover Julien Andreu\" rel=\"noopener\">Julien Andreu</a> on <a class=\"social linkedIn\" href=\"https://www.linkedin.com/in/julien-andreu/\" target=\"_blank\" title=\"Get in touch with me on LinkedIn\" rel=\"noopener\">LinkedIn</a> or follow me on <a class=\"social twitter\" href=\"https://twitter.com/reecob\" target=\"_blank\" title=\"Follow me on Twitter\" rel=\"noopener\">Twitter</a>."
+
+
+############################## Social Site ##########################
+[[params.social]]
+icon = "ti-linkedin"
+title = "Get in touch on LinkedIn"
+link = "https://www.linkedin.com/in/julien-andreu"
+[[params.social]]
+icon = "ti-github"
+title = "Discover more projects on Github"
+link = "https://github.com/julien-andreu"
+[[params.social]]
+icon = "ti-twitter-alt"
+title = "Follow me on Twitter"
+link = "https://twitter.com/julien-andreu"
+
+
+######################## author ###############################
+[params.author]
+picture = "images/author/julien-andreu.jpg"
+name = "<a href=\"https://julienandreu.fr/\" target=\"_blank\" title=\"Discover Julien Andreu\" rel=\"noopener\">Julien Andreu</a>"
+baseline = "<a href=\"https://julienandreu.fr/\" target=\"_blank\" title=\"Discover Julien Andreu\" rel=\"noopener\">Craftsman & Agile lover</a>"
+job = "<a href=\"https://julienandreu.fr/\" target=\"_blank\" title=\"Discover Julien Andreu\" rel=\"noopener\">Creator of your favorite theme Awesome Canada</a>"
