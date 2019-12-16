@@ -58,7 +58,7 @@ weight = 2
 # meta data
 description = "This is meta description"
 # google analitycs ID
-googleAnalitycsID = "Your ID"
+googleAnalitycsID = "UA-10792181-3"
 # wording
 readingTime = "%d min. reading"
 dateFormat = "2006, Jan. 2"
