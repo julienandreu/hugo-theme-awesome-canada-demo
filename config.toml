@@ -1,5 +1,5 @@
 ############################ Default configuration #########################
-baseURL = "https://www.awesome-canada.com/"
+baseURL = "https://awesome-canada.netlify.com/"
 languageCode = "en-US"
 # site title
 title = "Awesome Canada"
